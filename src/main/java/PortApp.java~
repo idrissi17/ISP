@@ -1,0 +1,13 @@
+public class PortApp {
+    public static void main(String[] args) {
+
+        Porte porteEtab = new Porte();
+
+        porteEtab.open();
+        porteEtab.close();
+
+        PorteSecurise porteSecurise = new PorteSecurise();
+
+        porteSecurise.genererAlerte();
+    }
+}
